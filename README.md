@@ -37,4 +37,14 @@ Enter the image when prompted.
 `shapely`: 2D polygon handling
 
 ## Thought Process
-I chose a contour-based extrusion method for simplicity and speed. After removing the background, I extracted the object's contour, turned it into a polygon, and extruded it vertically. 
+I chose a contour-based extrusion method for simplicity and speed. After removing the background, I extracted the object's contour, turned it into a polygon, and extruded it vertically. We can control the height of the extrusion in the code.
+
+## Example
+Original image:
+![fruit.png](fruit.png)
+
+3D image for excrusion height of 50:
+![fruit_3d_50.png](fruit_3d_50.png)
+
+3D image for excrusion height of 20:
+![fruit_3d_20.png](fruit_3d_20.png)
