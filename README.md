@@ -48,3 +48,5 @@ Original image:
 
 3D image for excrusion height of 20:
 ![fruit_3d_20.png](fruit_3d_20.png)
+
+They are inverted images of the fruit, with a side angle from a 3d viewer website.
